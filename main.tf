@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "hcloud" {
-  token = file("hetzner-token.txt")
+  token = trimspace(file("hetzner-token.txt"))
 }
 
 resource "hcloud_ssh_key" "dokploy_ssh_key" {
