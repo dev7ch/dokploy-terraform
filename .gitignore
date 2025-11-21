@@ -1,8 +1,8 @@
 # Secrets
 hetzner-token.txt
 .env
-# IDE
 
+# IDE
 .idea
 
 # Local .terraform directories
